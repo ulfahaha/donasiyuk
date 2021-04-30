@@ -104,6 +104,15 @@
         width: 400px;
         margin: auto;
     }
+    .main-content .right-col {
+        padding: 30px 40px;
+    }
+    .main-content .right-col .contents-item {
+        width: 50%;
+    }
+    .main-content .right-col .contents-item img {
+        width: 120px;
+    }
     .main-form .right-col img {
         padding-top: 30px;
     }
