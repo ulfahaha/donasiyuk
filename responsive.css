@@ -1,0 +1,125 @@
+/* Untuk Tablets */
+
+
+/* Tambahkan breakpoint max-width: 1000px */
+
+@media ( max-width: 1000px) {
+    /* Tambahkan CSS untuk lesson */
+    header .nav-bar ul li {
+        padding: 0 15px;
+    }
+    .main-header .left-col {
+        width: 40%;
+        padding-left: 20px;
+    }
+    .main-header .right-col {
+        width: 60%;
+    }
+    .main-header .right-col img {
+        width: max-content;
+    }
+    .main-header .left-col h1 {
+        font-size: 35px;
+    }
+    .main-header .left-col h2 {
+        font-size: 28px;
+    }
+    .main-content .left-col {
+        width: 35%;
+    }
+    .main-content .left-col img {
+        width: max-content;
+    }
+    .main-content .right-col {
+        padding: 30px 70px;
+        width: 65%;
+    }
+    .main-content .right-col h2 {
+        font-size: 25px;
+    }
+    .main-content .right-col .contents-item {
+        float: left;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        width: 50%;
+    }
+    .main-form .right-col,
+    .main-form .left-col {
+        width: 50%;
+    }
+    .main-form .right-col img {
+        width: max-content;
+    }
+    .main-footer {
+        padding: 30px 35px;
+    }
+    .main-footer .col {
+        width: 25%;
+        padding-right: 20px;
+    }
+}
+
+
+/* For Smartphones */
+
+@media (max-width: 670px) {
+    header {
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    header span.menu-icon {
+        display: block;
+    }
+    header .nav-bar {
+        display: none;
+    }
+    header .tombol {
+        display: none;
+    }
+    .main-header,
+    .main-content,
+    .main-form,
+    .main-footer {
+        flex-direction: column;
+    }
+    .main-header .left-col,
+    .main-header .right-col,
+    .main-content .left-col,
+    .main-content .right-col,
+    .main-form .left-col,
+    .main-form .right-col,
+    .main-footer .col {
+        width: 100%;
+    }
+    .main-header .left-col {
+        padding: 30px 30px;
+        padding-bottom: 0;
+    }
+    .main-header .right-col {
+        padding: 0;
+    }
+    .main-header .right-col img,
+    .main-content .left-col img,
+    .main-form .right-col img {
+        width: 400px;
+        margin: auto;
+    }
+    .main-form .right-col img {
+        padding-top: 30px;
+    }
+    .main-footer li {
+        font-size: 14px;
+    }
+    .main-footer {
+        padding: 30px 25px;
+    }
+    .main-footer .col {
+        text-align: center;
+    }
+    .main-footer h5 {
+        padding-bottom: 20px;
+    }
+    footer {
+        margin-bottom: 0;
+    }
+}
